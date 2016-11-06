@@ -1,0 +1,12 @@
+{
+  "presets": ["es2015", "stage-0"],
+  "plugins": [
+    ["babel-root-import", {
+      "rootPathSuffix": "src"
+    }],
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}
