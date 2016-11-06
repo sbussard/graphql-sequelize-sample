@@ -2,7 +2,7 @@ const environment = process.env;
 
 export let sequelizeConfiguration = {
   database: environment.SQ_DATABASE,
-  personname: environment.SQ_USERNAME,
+  username: environment.SQ_USERNAME,
   password: environment.SQ_PASSWORD,
   configuration: {
     host: environment.SQ_HOST,

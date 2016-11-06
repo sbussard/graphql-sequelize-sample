@@ -1,9 +1,9 @@
 import Sequelize from 'sequelize';
 import {isDev, sequelizeConfiguration} from '~/configuration';
 
-let {database, personname, password, configuration} = sequelizeConfiguration;
+let {database, username, password, configuration} = sequelizeConfiguration;
 
-let Database = new Sequelize(database, personname, password, configuration);
+let Database = new Sequelize(database, username, password, configuration);
 
 let defaultModel = {
   freezeTableName: true,
