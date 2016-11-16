@@ -21,13 +21,13 @@ Lee Benson made an [awesome YouTube video on GraphQL](https://www.youtube.com/wa
 The `.env` file is only used in `configuration.js`. It should look something like this:  
 
 ```
-export SQ_HOST="localhost"
-export SQ_DIALECT="postgres"
-export SQ_DATABASE="my_database"
-export SQ_USERNAME="MY USERNAME"
-export SQ_PASSWORD="MY PASSWORD"
-export PORT=3000 # it matters not
+export SQ_DATABASE=database_name
+export SQ_USERNAME=
+export SQ_PASSWORD=
+export SQ_HOST=
+export SQ_DIALECT=sqlite
 export ENVIRONMENT=DEVELOPMENT
+export PORT=4000
 ```  
 
 ### Windows

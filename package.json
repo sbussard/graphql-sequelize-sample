@@ -8,9 +8,9 @@
     "compile": "babel -d ./lib ./src"
   },
   "author": {
-    "name" : "Stephen Bussard",
-    "twitter" : "@inversemetric",
-    "url" : "http://www.stephenbussard.com"
+    "name": "Stephen Bussard",
+    "twitter": "@inversemetric",
+    "url": "http://www.stephenbussard.com"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,7 +23,8 @@
     "graphiql": "^0.7.8",
     "lodash": "^4.16.6",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "sqlite3": "^3.1.8"
   },
   "dependencies": {
     "express": "^4.14.0",
